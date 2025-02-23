@@ -22,13 +22,15 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="web.css">
 
-
     <title>TechSynergy</title>
 </head>
 <body>
 <!--Nav Bar-->
 <nav class="navbar navbar-expand-lg custom-navbar">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">
+        <img src="assets/tempLogo.png" alt="TechSynergy Logo" class="nav-logo">
+        TechSynergy
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -57,20 +59,32 @@
     </div>
 </nav>
 
-<div>
-    <h1>This is our club website!</h1>
-    <h2>We are TechSynergy</h2>
+<!--Top Image and Club Details-->
+<div class="container-fluid p-0">
+    <div class="row">
+        <div class="col">
+            <img src="assets/Colorado_Mesa_University_sign.jpg" alt="Colorado Mesa University Picture"
+                 class="img-fluid w-100">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col text-center">
+            <h1 class="club-name">TechSynergy</h1>
+        </div>
+    </div>
+</div>
+
+<!--Club Information-->
+<div class="container">
+    <h2>Welcome to TechSynergy!</h2>
     <p>
         TechSynergy is a club that allows students of any experience level to delve into high-performance computing
-        (HPC),
-        game design, codecraft, cybersecurity, and more!
+        (HPC), game design, codecraft, cybersecurity, and more!
     </p>
-    <h1>When do we meet?</h1>
-    <img src="https://spectrum.ieee.org/media-library/a-wedge-shaped-beige-keyboard-with-dark-keys-and-the-commodore-64-logo-on-a-grey-background-with-red-salmon-yellow-green-and.jpg?id=29576456&width=2400&height=1297"
-         alt="commodore 64 keyboard" class="img-fluid" style="width:64px;height:64px;">
-    <h2>We meet every Thursday from 4:00 to 5:00</h2>
-    <h1>But where?!</h1>
-    <h2>You can find us in Confluence Hall on the first floor in room 110!</h2>
+    <h2>Meeting Schedule</h2>
+    <p>We meet every Thursday from 4:00 to 5:00.</p>
+    <h2>Location</h2>
+    <p>Find us in Confluence Hall on the first floor in room 110!</p>
 </div>
 </body>
 </html>

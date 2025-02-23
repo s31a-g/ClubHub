@@ -1,7 +1,48 @@
-.custom-navbar {
-    background-color: #89CFF0; /* makes the nav bar light blue */
+body {
+    background-color: powderblue;
 }
 
-body {
-    background-color: powderblue; /* makes the whole body blue */
+.custom-navbar {
+    background-color: white;
+    color: white; /* Set text color to white */
+    height: 80px;
+    font-size: 21px;
+    font-weight: 550;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+    color: black;
+    padding-left: 40px; /* Add space between links */
+    padding-right: 40px;
+}
+
+.custom-navbar .navbar-brand {
+    color: black;
+    background-color: transparent;
+    font-size: 21px;
+}
+
+.dropdown-menu {
+    background-color: dimgrey;
+    opacity: 0.8;
+}
+
+.nav-logo {
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.club-name {
+    margin-top: -50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    font-size: 36px;
 }
