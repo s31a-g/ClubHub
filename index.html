@@ -18,10 +18,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="web.css">
+
+
     <title>TechSynergy</title>
 </head>
+<body>
 <!--Nav Bar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:powderblue;">
+<nav class="navbar navbar-expand-lg custom-navbar">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,9 +46,7 @@
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
-                    Dropdown link
-                </a>
+                   aria-haspopup="true" aria-expanded="false">Dropdown link</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="#">Action</a>
                     <a class="dropdown-item" href="#">Another action</a>
@@ -53,21 +57,20 @@
     </div>
 </nav>
 
-<body style="background-color:powderblue;">
-<h1>This is our club website!</h1>
-<h2>We are TechSynergy</h2>
-<p>
-    TechSynergy is a club that allows students of any experience level to<br>
-    delve into high-performance computing (HPC), game design, codecraft,<br>
-    cybersecurity, and more!
-</p>
-<h1>When do we meet?</h1>
-<img src="https://spectrum.ieee.org/media-library/a-wedge-shaped-beige-keyboard-with-dark-keys-and-the-commodore-64-logo-on-a-grey-background-with-red-salmon-yellow-green-and.jpg?id=29576456&width=2400&height=1297"
-     alt="commodore 64 keyboard" style="width:64px;height:64px;">
-<h2>We meet every Thursday from 4:00 to 5:00</h2>
-<h1>But where?!</h1>
-<h2>You can find us in Confluence Hall on the first floor in room 110!</h2>
-
-
+<div>
+    <h1>This is our club website!</h1>
+    <h2>We are TechSynergy</h2>
+    <p>
+        TechSynergy is a club that allows students of any experience level to delve into high-performance computing
+        (HPC),
+        game design, codecraft, cybersecurity, and more!
+    </p>
+    <h1>When do we meet?</h1>
+    <img src="https://spectrum.ieee.org/media-library/a-wedge-shaped-beige-keyboard-with-dark-keys-and-the-commodore-64-logo-on-a-grey-background-with-red-salmon-yellow-green-and.jpg?id=29576456&width=2400&height=1297"
+         alt="commodore 64 keyboard" class="img-fluid" style="width:64px;height:64px;">
+    <h2>We meet every Thursday from 4:00 to 5:00</h2>
+    <h1>But where?!</h1>
+    <h2>You can find us in Confluence Hall on the first floor in room 110!</h2>
+</div>
 </body>
 </html>
