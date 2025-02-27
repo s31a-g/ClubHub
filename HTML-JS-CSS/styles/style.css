@@ -1,0 +1,130 @@
+/* --------- css reset -------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ------ end css reset -------*/
+
+/* examples */
+
+html {
+    font-size: 30px;
+}
+
+body {
+    //width: auto;
+    //margin: 0 auto;
+    //padding: 50px;
+    //border: solid #000;
+    background-image: url('../images/topography.svg'),
+        linear-gradient(110deg, #f93d66, #6d47d9);
+    background-size: 360px, auto;
+    background-attachment: fixed;
+}
+
+div {
+    width: auto;
+    margin: auto;
+    padding: 1px 5px 1px 5px;
+}
+
+h1 {
+    margin: 10px;
+    padding: 10px;
+    color: #000000;
+    text-shadow: 5px 3px 4px #355;
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    text-align: right;
+    color: #ffffff;
+}
+
+.container {
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    grid-auto-rows: 200px;
+}
+
+img {
+    display: inline-block;
+    margin: 50px;
+    width: 200px; /* 25% */
+}
+
+.grp {
+    margin: 2px;
+    width: 330px;
+    height: 187px;
+    line-height: 165px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    background: #411111;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .4s ease-in-out;
+    border-radius: 25%;
+}
+
+.block:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    border-radius: 0%;
+}
+
+#shadows {
+    15px 15px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
