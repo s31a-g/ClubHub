@@ -1,5 +1,6 @@
 body {
     background-image: linear-gradient(powderblue, #716969);
+    overflow: hidden;
 }
 
 .custom-navbar {
