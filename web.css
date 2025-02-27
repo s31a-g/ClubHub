@@ -1,1 +1,74 @@
+body {
+    background-image: linear-gradient(powderblue, #716969);
+}
 
+.custom-navbar {
+    background-color: white;
+    height: 80px;
+    font-size: 21px;
+    font-weight: 550;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+    color: black;
+}
+
+.custom-navbar .navbar-brand {
+    color: black;
+    background-color: transparent;
+    font-size: 21px;
+}
+
+.dropdown-menu {
+    background-color: dimgrey;
+    opacity: 0.8;
+}
+
+.nav-logo {
+    height: 80px;
+    vertical-align: middle;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.club-name {
+    margin-top: -35px;
+    margin-bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 36px;
+    line-height: 1;
+}
+
+
+.welcome-container {
+    background-image: linear-gradient(to right, #9a3e3e, #972020);
+    align-items: center;
+}
+
+.welcome-text {
+    text-align: center;
+}
+
+.welcome-image {
+    padding-right: 40px;
+}
+
+.welcome-image img {
+    max-width: 500px;
+    height: auto;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    padding: 2px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
