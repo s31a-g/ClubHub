@@ -1,6 +1,6 @@
 body {
     background-image: linear-gradient(powderblue, #716969);
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .custom-navbar {
@@ -21,8 +21,7 @@ body {
 }
 
 .dropdown-menu {
-    background-color: dimgrey;
-    opacity: 0.8;
+    background: #ebebebe8;
 }
 
 .nav-logo {
@@ -35,15 +34,6 @@ body {
     height: auto;
     max-height: 600px;
     object-fit: cover;
-}
-
-.club-name {
-    margin-top: -35px;
-    margin-bottom: 0px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    font-size: 36px;
-    line-height: 1;
 }
 
 
@@ -72,4 +62,51 @@ body {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+.main-logo-container {
+    position: relative;
+}
+
+.main-logo {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+}
+
+.club-name {
+    margin-top: -35px;
+    margin-bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 40px;
+    line-height: 1;
+
+    padding: 30px 0px;
+    animation: rainbow_shadow infinite 2s;
+}
+
+@keyframes rainbow_shadow {
+    0% {
+        text-shadow: 3px 2px 3px red;
+    }
+    16% {
+        text-shadow: 3px 2px 3px orange;
+    }
+    33% {
+        text-shadow: 3px 2px 3px yellow;
+    }
+    50% {
+        text-shadow: 3px 2px 3px green;
+    }
+    67% {
+        text-shadow: 3px 2px 3px blue;
+    }
+    83% {
+        text-shadow: 3px 2px 3px purple;
+    }
+    100% {
+        text-shadow: 3px 2px 3px red;
+    }
 }
